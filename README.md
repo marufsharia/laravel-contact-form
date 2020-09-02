@@ -15,16 +15,16 @@ You can install the package via composer:
 composer require marufsharia/contactform
 ```
 
-## Usage
+Publish migartion file
 
-``` php
-// Usage description here
+```bash
+php artisan vendor:publish --provider="Marufsharia\Contactform\ServiceProvider"
 ```
 
-### Testing
+## Usage
 
-``` bash
-composer test
+```php
+// Usage description here
 ```
 
 ### Changelog

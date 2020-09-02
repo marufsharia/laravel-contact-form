@@ -12,5 +12,15 @@
         "psr-4": {
             "MarufSharia\\Contactform\\": "src/"
         }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                 "Marufsharia\\Contactform\\ContactFormServiceProvider"
+            ],
+            "aliases": {
+                "MSContactForm": "Barryvdh\\Debugbar\\Facade"
+            }
+        }
     }
 }
