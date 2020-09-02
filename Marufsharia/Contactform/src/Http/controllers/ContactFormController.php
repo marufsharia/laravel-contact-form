@@ -1,8 +1,8 @@
- <?php
- namespace Marufsharia\Contactform\Http\Controllers;
+<?php
+namespace Marufsharia\Contactform\Http\Controllers;
     use App\Http\Controllers\Controller;
     use Illuminate\Http\Request;
-    use MyVendor\Contactform\Models\ContactForm;
+    use Marufsharia\Contactform\Models\ContactForm;
 
     class ContactFormController extends Controller {
 
